@@ -18,7 +18,7 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: 'module',
   },
-  plugins: ['babel', 'import', 'jsx-a11y', 'mocha', 'flowtype', 'material-ui', 'prettier'],
+  plugins: ['babel', 'import', 'jsx-a11y', 'mocha', 'flowtype', 'material-ui', 'prettier', 'compat'],
   settings: {
     'import/resolver': {
       webpack: {
